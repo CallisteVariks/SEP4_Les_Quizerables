@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LesQUIZerables</string>
+    <string name="play_button">Play</string>
+    <string name="profile_button">Go To Your Profile</string>
+    <string name="open_drawer">OpenDrawer</string>
+    <string name="close_drawer">closingDrawer</string>
+    <string name="action_settings">settings</string>
+    <string name="home">Home</string>
+    <string name="topics">Topics</string>
+    <string name="favorites">Favorites</string>
+    <string name="my_profile">My Profile</string>
+    <string name="ranking">Rankings</string>
+    <string name="friends">Friends</string>
+    <string name="opponents">Opponents</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="hello">hello</string>
+    <string name="log_out">Sign Out</string>
+
+    <string-array name="sex_array">
+        <item>Boy</item>
+        <item>Girl</item>
+    </string-array>
+</resources>

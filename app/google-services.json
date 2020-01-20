@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "755893403441",
+    "firebase_url": "https://lesquizerables-5abc.firebaseio.com",
+    "project_id": "lesquizerables-5abc",
+    "storage_bucket": "lesquizerables-5abc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755893403441:android:b08395a8260e3f71",
+        "android_client_info": {
+          "package_name": "com.lesquizerables.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755893403441-3c1pir0008ldvivehkju6q0ehek9bdsg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lesquizerables.android",
+            "certificate_hash": "273324efa25c2a5564ea7605e941a0e8199d56ad"
+          }
+        },
+        {
+          "client_id": "755893403441-6955a5pvj6vi69ua6m06hkcm7c4geqdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWmm7K_LqQnMTs204jP2SLLZo4BiUlNBg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755893403441-6955a5pvj6vi69ua6m06hkcm7c4geqdj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755893403441:android:0fbdaf31216329ec",
+        "android_client_info": {
+          "package_name": "debugit.lesquizerables"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755893403441-h6m2mo19nimkll9htqr39cq5vam59ibv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "debugit.lesquizerables",
+            "certificate_hash": "273324efa25c2a5564ea7605e941a0e8199d56ad"
+          }
+        },
+        {
+          "client_id": "755893403441-gbfl142ahbio0u653na3c5g8cvj2l7bo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "debugit.lesquizerables",
+            "certificate_hash": "104bc654b38eaed2d55f08750c22e79fc66e9e6f"
+          }
+        },
+        {
+          "client_id": "755893403441-6955a5pvj6vi69ua6m06hkcm7c4geqdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWmm7K_LqQnMTs204jP2SLLZo4BiUlNBg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755893403441-6955a5pvj6vi69ua6m06hkcm7c4geqdj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

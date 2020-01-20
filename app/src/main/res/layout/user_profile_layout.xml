@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBrown">
+
+    <!--  private String id, name, location, sex, rank, title;
+        private int points, number_games;
+        private boolean isInMatch;-->
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/quizlogotemp" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="250dp"
+        android:background="@color/colorWhite"
+        android:text="Name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/user_name"
+        android:layout_alignBottom="@+id/user_name"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="70dp"
+        android:layout_toEndOf="@id/user_name"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/user_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/user_name"
+        android:layout_below="@id/user_name"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorWhite"
+        android:text="Title"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/user_title"
+        android:layout_alignBottom="@+id/user_title"
+        android:layout_alignStart="@id/nameText"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@id/user_title"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/user_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/user_name"
+        android:layout_below="@id/rankText"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorWhite"
+        android:text="Points"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pointsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/user_points"
+        android:layout_alignBottom="@+id/user_points"
+        android:layout_alignStart="@id/nameText"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@id/user_points"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/user_nº_games"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/user_rank"
+        android:layout_below="@id/user_points"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorWhite"
+        android:text="Nº of games"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/numberGamesText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/user_nº_games"
+        android:layout_alignBottom="@+id/user_nº_games"
+        android:layout_alignStart="@id/nameText"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@id/user_nº_games"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/user_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/user_location"
+        android:layout_below="@id/user_location"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorWhite"
+        android:text="Sex"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/rankText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/user_rank"
+        android:layout_alignBottom="@+id/user_rank"
+        android:layout_alignStart="@id/nameText"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@id/user_rank"
+        android:background="@color/colorWhite"
+        android:entries="@array/sex_array"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/user_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/user_title"
+        android:layout_below="@id/user_title"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorWhite"
+        android:text="Location"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/locationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/user_location"
+        android:layout_alignBottom="@+id/user_location"
+        android:layout_alignStart="@id/nameText"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@id/user_location"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <!--
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar_profile"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimaryDark"
+        android:elevation="4dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="true">
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:clickable="true"
+            android:fitsSystemWindows="true"
+            android:focusable="true"
+            android:visibility="visible"
+            app:headerLayout="@layout/header"
+            app:menu="@menu/navdrawermenu" />
+    </android.support.v4.widget.DrawerLayout>
+-->
+</RelativeLayout>
